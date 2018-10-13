@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id2"
+        android:bottom="6dp"
+        android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:top="6dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#cccccc" />
+        </shape>
+    </item>
+    <item
+        android:id="@+id/id"
+        android:bottom="6dp"
+        android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:top="6dp">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="#b71c1c" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
